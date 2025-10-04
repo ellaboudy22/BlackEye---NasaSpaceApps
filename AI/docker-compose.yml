@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  exoplanet-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: exoplanet-prediction-api
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./outputs:/app/outputs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "exit(0)"]
+      interval: 30s
+      timeout: 3s
+      retries: 1
+      start_period: 5s

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <title>Contact - BlackEye</title>
     <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/unified.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,34 +17,36 @@
             <section class="page-header">
                 <h1 class="page-title">Contact Us</h1>
                 <p class="page-subtitle">
-                    Get in touch with our team to learn more about BlackEye, discuss collaboration opportunities, 
-                    or get support for your exoplanet research projects.
+                    Get in touch with our team to learn more about BlackEye, discuss research collaboration, 
+                    or get support for your exoplanet analysis projects. Our team consists of 6 members working 
+                    on the NASA Space Apps Challenge project to advance exoplanet discovery through machine learning.
                 </p>
-                <div class="contact-quick-stats">
-                    <div class="quick-stat">
-                        <span class="quick-stat-icon">📧</span>
-                        <span class="quick-stat-text">24h Response Time</span>
+                <div class="stats">
+                    <div class="stat stat-primary">
+                        <span class="stat-value">24h</span>
+                        <span class="stat-label">Response Time</span>
                     </div>
-                    <div class="quick-stat">
-                        <span class="quick-stat-icon">🌍</span>
-                        <span class="quick-stat-text">Global Support</span>
+                    <div class="stat stat-primary">
+                        <span class="stat-value">Global</span>
+                        <span class="stat-label">Support</span>
                     </div>
-                    <div class="quick-stat">
-                        <span class="quick-stat-icon">🔬</span>
-                        <span class="quick-stat-text">Expert Team</span>
+                    <div class="stat stat-primary">
+                        <span class="stat-value">Expert</span>
+                        <span class="stat-label">Team</span>
                     </div>
                 </div>
             </section>
 
             
-            <section class="contact-form-section">
+            <section class="section">
                 <div class="contact-grid">
                     <div class="contact-info">
                         <h2 class="section-title">Get In Touch</h2>
                         <p class="contact-description">
-                            We're always excited to hear from researchers, astronomers, and space enthusiasts 
-                            who are interested in advancing exoplanet science. Whether you have questions about 
-                            our technology, want to collaborate, or need support, we're here to help.
+                            We're always excited to hear from researchers and astronomers who are interested in advancing exoplanet science. 
+                            Whether you have questions about our machine learning system, want to collaborate, or need support, we're here to help. 
+                            BlackEye is developed for the NASA Space Apps Challenge, addressing the challenge of improving exoplanet detection 
+                            and characterization through automated analysis of NASA's Kepler and TESS datasets.
                         </p>
                         
                         <div class="contact-methods">
@@ -56,7 +59,7 @@
                                 </div>
                                 <div class="method-content">
                                     <h3 class="method-title">Email</h3>
-                                    <p class="method-detail">contact@blackeye.site</p>
+                                    <p class="method-detail">moazellaboudy@gmail.com</p>
                                     <p class="method-description">Send us an email and we'll respond within 24 hours</p>
                                 </div>
                             </div>
@@ -69,7 +72,7 @@
                                 </div>
                                 <div class="method-content">
                                     <h3 class="method-title">Phone</h3>
-                                    <p class="method-detail">+20 1032554400</p>
+                                    <p class="method-detail">+20 2022311051</p>
                                     <p class="method-description">Available Monday-Friday, 9 AM - 6 PM EST</p>
                                 </div>
                             </div>
@@ -90,120 +93,31 @@
                         </div>
                     </div>
 
-                    <div class="contact-form-container">
-                        <form class="contact-form" id="contactForm">
-                            <div class="form-group">
-                                <label for="name" class="form-label">Full Name</label>
-                                <input type="text" id="name" name="name" class="form-input" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email" class="form-label">Email Address</label>
-                                <input type="email" id="email" name="email" class="form-input" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="organization" class="form-label">Organization (Optional)</label>
-                                <input type="text" id="organization" name="organization" class="form-input">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="subject" class="form-label">Subject</label>
-                                <select id="subject" name="subject" class="form-select" required>
-                                    <option value="">Select a subject</option>
-                                    <option value="general">General Inquiry</option>
-                                    <option value="collaboration">Collaboration Opportunity</option>
-                                    <option value="support">Technical Support</option>
-                                    <option value="research">Research Partnership</option>
-                                    <option value="media">Media & Press</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
-                            </div>
-
-                            <button type="submit" class="btn btn-primary btn-submit">
-                                <span class="btn-text">Send Message</span>
-                                <span class="btn-icon">🚀</span>
-                            </button>
-                        </form>
-                    </div>
                 </div>
             </section>
-
-            
-            <section class="faq-section">
-                <h2 class="section-title">Frequently Asked Questions</h2>
-                <div class="faq-grid">
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3 class="faq-title">How accurate is BlackEye's classification?</h3>
-                            <span class="faq-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>BlackEye achieves 86% accuracy in exoplanet classification, significantly reducing false positives compared to traditional methods. Our AI model has been trained on extensive NASA datasets and continuously improves through community feedback.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3 class="faq-title">What data formats does BlackEye support?</h3>
-                            <span class="faq-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>BlackEye supports CSV files, manual data input, and integrates directly with NASA's data archives. We also provide API access for automated data processing and batch analysis capabilities.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3 class="faq-title">Is BlackEye free to use?</h3>
-                            <span class="faq-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Yes! BlackEye is free for individual researchers, citizen scientists, and educational institutions. We also offer premium features for research organizations and commercial users.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3 class="faq-title">How can I contribute to BlackEye's development?</h3>
-                            <span class="faq-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We welcome contributions from the community! You can contribute by reporting bugs, suggesting features, providing feedback, or even contributing code through our open-source repositories.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3 class="faq-title">What kind of support do you provide?</h3>
-                            <span class="faq-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>We provide comprehensive support including documentation, tutorials, API guides, and direct technical support. Our team responds to inquiries within 24 hours and offers specialized support for research collaborations.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3 class="faq-title">Can I integrate BlackEye with my existing research workflow?</h3>
-                            <span class="faq-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Absolutely! BlackEye offers RESTful API access, batch processing capabilities, and can be integrated with popular astronomical software and research platforms. We also provide custom integration support for large-scale research projects.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
         </div>
     </main>
 
     <?php include 'includes/footer.php'; ?>
     <script src="static/js/main.js"></script>
+    <style>
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact-info {
+            text-align: center;
+            max-width: 800px;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-info {
+                max-width: 100%;
+                padding: 0 1rem;
+            }
+        }
+    </style>
 </body>
 </html>

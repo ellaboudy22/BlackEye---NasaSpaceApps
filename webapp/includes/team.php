@@ -1,97 +1,4 @@
-<style>
-
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
-}
-
-.team-member {
-    background: rgba(17, 24, 39, 0.8);
-    border: 1px solid rgba(107, 70, 193, 0.2);
-    border-radius: 16px;
-    padding: 2rem;
-    transition: var(--transition-normal);
-    backdrop-filter: blur(10px);
-    text-align: center;
-}
-
-.team-member:hover {
-    transform: translateY(-8px);
-    border-color: var(--nebula-purple);
-    box-shadow: 0 20px 40px rgba(107, 70, 193, 0.2);
-}
-
-.member-photo {
-    margin-bottom: 1.5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.member-photo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid rgba(107, 70, 193, 0.3);
-    transition: var(--transition-normal);
-    margin: 0 auto;
-    display: block;
-}
-
-.photo-placeholder {
-    width: 120px;
-    height: 120px;
-    background: var(--nebula-gradient);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    transition: var(--transition-normal);
-}
-
-.photo-placeholder svg {
-    width: 60px;
-    height: 60px;
-    color: var(--star-white);
-}
-
-.team-member:hover .member-photo img,
-.team-member:hover .photo-placeholder {
-    transform: scale(1.1);
-    box-shadow: 0 10px 25px rgba(107, 70, 193, 0.3);
-    border-color: var(--nebula-purple);
-}
-
-.member-name {
-    font-family: var(--font-primary);
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-    color: var(--star-white);
-}
-
-.member-role {
-    color: var(--stellar-blue);
-    font-weight: 600;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-}
-
-.member-bio {
-    color: var(--star-dim);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-}
-
-
-
-
-    </style>
 <?php
-// Team data structure
 $team_members = [
     [
         'name' => 'Moaz Ellaboudy',
@@ -135,17 +42,17 @@ $team_members = [
 <section id="team" class="section">
         <div class="container">
             <h2 class="section-title">Our Team</h2>
-            <p class="subtitle">
-                A passionate group of scientists, engineers, and space enthusiasts working together 
+            <p class="section-subtitle">
+                A passionate group of scientists and engineers working together 
                 to advance exoplanet discovery through cutting-edge AI technology.
             </p>
-            <div class="team-grid">
+            <div class="cards-grid">
                 <?php foreach ($team_members as $member): ?>
-                <div class="team-member">
+                <div class="card team-member">
                     <div class="member-photo">
-                        <?php 
+                        <?php
                         $image_path = "assets/images/team/" . $member['image'];
-                        $full_image_path = __DIR__ . "/../../" . $image_path;
+                        $full_image_path = __DIR__ . "/../" . $image_path;
                         if (file_exists($full_image_path)): ?>
                             <img src="<?php echo $image_path; ?>" alt="<?php echo htmlspecialchars($member['name']); ?>" loading="lazy">
                         <?php else: ?>
@@ -157,10 +64,10 @@ $team_members = [
                             </div>
                         <?php endif; ?>
                     </div>
-                    <div class="member-info">
-                        <h3 class="member-name"><?php echo htmlspecialchars($member['name']); ?></h3>
+                    <div class="card-content">
+                        <h3 class="card-title"><?php echo htmlspecialchars($member['name']); ?></h3>
                         <p class="member-role"><?php echo htmlspecialchars($member['role']); ?></p>
-                        <p class="member-bio"><?php echo htmlspecialchars($member['bio']); ?></p>
+                        <p class="card-description"><?php echo htmlspecialchars($member['bio']); ?></p>
                     </div>
                 </div>
                 <?php endforeach; ?>

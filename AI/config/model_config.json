@@ -1,0 +1,43 @@
+{
+  "training_data_path": "data/raw/merged_kepler_toi_dataset.csv",
+  "hyperparameters": {
+    "classifier": {
+      "n_estimators": 200,
+      "max_depth": 10,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "random_state": 42
+    },
+    "planet_regressor": {
+      "n_estimators": 200,
+      "max_depth": 10,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "random_state": 42
+    },
+    "stellar_regressor": {
+      "n_estimators": 200,
+      "max_depth": 10,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "random_state": 42
+    },
+    "quality_regressor": {
+      "n_estimators": 200,
+      "max_depth": 10,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "random_state": 42
+    }
+  },
+  "data_split": {
+    "train_ratio": 0.70,
+    "val_ratio": 0.20,
+    "test_ratio": 0.05,
+    "future_test_ratio": 0.05
+  }
+}
