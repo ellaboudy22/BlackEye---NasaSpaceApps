@@ -17,12 +17,12 @@
                 <h1 class="hero-title">
                     <span class="title-line">BlackEye</span>
                     <span class="title-line">AI-Powered</span>
-                    <span class="title-line highlight">Exoplanet Detection</span>
+                    <span class="title-line highlight">Universe Observation</span>
                 </h1>
                 <p class="hero-subtitle">
-                    A machine learning system that processes NASA's Kepler and TESS datasets to identify and characterize exoplanets. 
-                    BlackEye combines XGBoost classification and regression models to simultaneously classify exoplanet candidates 
-                    and predict their physical properties, analyzing 17,232 astronomical objects with 12 raw features plus 3 engineered features.
+                    Discover the universe like never before. BlackEye is an advanced observation platform that uses AI to explore distant worlds, 
+                    analyze cosmic phenomena, and unlock the secrets of space. Join the next generation of universe exploration 
+                    with cutting-edge technology that makes the cosmos accessible to everyone.
                 </p>
                 <div class="hero-cta">
                     <a href="#about" class="btn btn-primary">
@@ -56,8 +56,8 @@
             <p class="section-subtitle">
                 NASA's Kepler and TESS missions generate vast amounts of light curve data that require sophisticated analysis. 
                 Current exoplanet detection relies heavily on manual review by expert astronomers, limiting the pace of discovery 
-                and scientific advancement. BlackEye addresses this by automating the analysis of vast amounts of light curve data 
-                from NASA's Kepler and TESS missions, reducing manual review time and improving classification accuracy.
+                and scientific advancement. BlackEye addresses this by automatically analyzing vast amounts of space telescope data 
+                from NASA's Kepler and TESS missions, reducing manual review time and improving planet detection accuracy.
             </p>
 
             <div class="stats-grid">
@@ -87,7 +87,7 @@
                             <p class="card-description">
                                 NASA's Kepler and TESS missions generate vast amounts of light curve data that require sophisticated analysis. 
                                 Manual analysis is time-consuming and prone to human error, limiting the pace of discovery. 
-                                BlackEye provides automated analysis with 86% classification accuracy.
+                                BlackEye provides automatic analysis with 86% accuracy in finding planets.
                             </p>
                         </div>
 
@@ -103,8 +103,8 @@
                             <p class="card-description">
                                 Current exoplanet detection relies heavily on manual review by expert astronomers. 
                                 Distinguishing real planetary transits from stellar variability, binary stars, and instrumental noise 
-                                requires sophisticated pattern recognition. BlackEye's multi-target learning approach handles both 
-                                classification and parameter prediction simultaneously.
+                                requires smart pattern recognition. BlackEye's approach handles both 
+                                finding planets and learning about their properties at the same time.
                             </p>
                         </div>
 
@@ -133,12 +133,11 @@
         <div class="container">
             <h2 class="section-title">About BlackEye</h2>
             <p class="section-subtitle">
-                BlackEye is a machine learning system that processes NASA's Kepler and TESS datasets to identify and characterize 
-                exoplanets through a multi-target learning approach. The system analyzes 17,232 astronomical objects using 12 raw 
-                features plus 3 physics-based engineered features, then uses XGBoost to classify objects as CONFIRMED, CANDIDATE, 
-                FALSE_POSITIVE, or UNKNOWN while simultaneously predicting 7 key scientific parameters.
+                BlackEye is your gateway to the universe. Our advanced observation platform combines NASA's space telescope data 
+                with intelligent AI to discover new worlds, analyze cosmic phenomena, and bring the mysteries of space to your fingertips. 
+                Whether you're a researcher, educator, or space enthusiast, BlackEye makes universe exploration accessible and exciting.
                 <br><br>
-                <a href="about.php" class="link-accent">Learn more about our unique features →</a>
+                <a href="about.php" class="link-accent">Discover our unique capabilities →</a>
             </p>
         </div>
     </section>
@@ -161,7 +160,7 @@
                         </svg>
                     </div>
                     <h3 class="card-title">Kepler Objects of Interest (KOI)</h3>
-                    <p class="card-description">NASA's Kepler space telescope discovered thousands of exoplanets. Our system uses the comprehensive KOI dataset for classification, including confirmed exoplanets, candidates, and false positives.</p>
+                    <p class="card-description">NASA's Kepler space telescope discovered thousands of exoplanets. Our system uses this comprehensive dataset to find planets, including confirmed exoplanets, possible planets, and false alarms.</p>
                     <div class="card-highlight">
                         <span class="highlight-text">9,564 Kepler Objects</span>
                     </div>
@@ -224,7 +223,7 @@
         <div class="container">
             <h2 class="section-title">Project Presentation</h2>
             <p class="section-subtitle">
-                Watch our presentation to see BlackEye's AI-powered exoplanet classification in action.
+                Watch our presentation to see BlackEye's AI-powered planet detection in action.
             </p>
             
             <div class="video-container">
@@ -241,7 +240,7 @@
                 <div class="video-description">
                     <h3 class="video-title">BlackEye: Revolutionizing Exoplanet Discovery</h3>
                     <p class="video-text">
-                        See how BlackEye uses NASA's Kepler and TESS datasets for accurate exoplanet classification
+                        See how BlackEye uses NASA's Kepler and TESS datasets for accurate planet detection
                         with advanced machine learning.
                     </p>
                     <div class="highlights-grid">
@@ -387,7 +386,7 @@
                     </div>
                     <h3 class="card-title">Advanced Features</h3>
                     <ul class="card-list">
-                        <li>Comprehensive hyperparameter tuning for all XGBoost models</li>
+                        <li>Comprehensive customization options for all AI models</li>
                         <li>Configurable data split ratios for training, validation, and testing</li>
                         <li>Custom model training with researcher-specific parameters</li>
                         <li>Real-time model retraining and performance monitoring</li>
@@ -424,7 +423,7 @@
                         <div class="timeline-marker">4</div>
                         <div class="timeline-content">
                             <h4>Quantum-Enhanced Platform</h4>
-                            <p>Implement quantum algorithms and blockchain-based collaborative research ecosystem</p>
+                            <p>Implement advanced computing and collaborative research tools</p>
                         </div>
                     </div>
                     <div class="timeline-item">

@@ -17,9 +17,9 @@
             <section class="page-header">
                 <h1 class="page-title">About BlackEye</h1>
                 <p class="page-subtitle">
-                    BlackEye is a machine learning system that processes NASA's Kepler and TESS datasets to identify and characterize 
-                    exoplanets through a multi-target learning approach. The system analyzes 17,232 astronomical objects using 12 raw 
-                    features plus 3 physics-based engineered features, then uses XGBoost to classify objects and predict their physical properties.
+                    BlackEye is your gateway to the universe. Our advanced observation platform combines NASA's space telescope data 
+                    with intelligent AI to discover new worlds, analyze cosmic phenomena, and bring the mysteries of space to your fingertips. 
+                    Whether you're a researcher, educator, or space enthusiast, BlackEye makes universe exploration accessible and exciting.
                 </p>
                 <div class="stats">
                     <div class="stat stat-primary">
@@ -27,12 +27,12 @@
                         <span class="stat-label">Founded</span>
                     </div>
                     <div class="stat stat-primary">
-                        <span class="stat-value">6</span>
+                        <span class="stat-value">5</span>
                         <span class="stat-label">Team Members</span>
                     </div>
                     <div class="stat stat-primary">
                         <span class="stat-value">NASA</span>
-                        <span class="stat-label">Space Apps Challenge</span>
+                        <span class="stat-label">AI Research</span>
                     </div>
                 </div>
             </section>
@@ -52,10 +52,10 @@
                         <div class="card-body">
                             <h3 class="card-title">Our Mission</h3>
                             <p class="card-description">
-                                To advance exoplanet discovery through machine learning by creating a unified system that processes 
-                                NASA's Kepler and TESS data to identify and characterize distant worlds with scientific rigor. 
-                                BlackEye accelerates exoplanet discovery by providing researchers with powerful, automated analysis 
-                                tools that can process NASA's massive datasets in real-time.
+                                To democratize universe exploration by making advanced space observation accessible to everyone. 
+                                We believe that the wonders of the cosmos should not be limited to professional astronomers. 
+                                BlackEye empowers researchers, educators, and space enthusiasts to discover new worlds, 
+                                analyze cosmic phenomena, and contribute to humanity's understanding of the universe.
                             </p>
                         </div>
                     </article>
@@ -70,10 +70,10 @@
                         <div class="card-body">
                             <h3 class="card-title">Our Vision</h3>
                             <p class="card-description">
-                                To develop a robust, scientifically-validated exoplanet detection system that serves as a foundation 
-                                for future astronomical research and contributes to our understanding of planetary systems beyond our 
-                                solar system. BlackEye advances our understanding of planetary systems by making NASA data more 
-                                accessible to the research community, supporting ongoing NASA missions and future space telescope operations.
+                                To create a world where anyone can explore the universe and make meaningful contributions to space science. 
+                                We envision BlackEye as the leading platform for universe observation, where cutting-edge AI meets 
+                                the infinite wonders of space. Our goal is to inspire the next generation of space explorers and 
+                                accelerate humanity's journey to understand our place in the cosmos.
                             </p>
                         </div>
                     </article>
@@ -100,8 +100,8 @@
                         <div class="card-body">
                             <h3 class="card-title">Unified Multi-Mission Approach</h3>
                             <p class="card-description">
-                                Unlike traditional approaches that separate classification and parameter estimation, BlackEye handles both 
-                                tasks simultaneously, providing comprehensive exoplanet characterization in a single framework. 
+                                Unlike traditional approaches that separate finding planets and learning about their properties, BlackEye handles both 
+                                tasks at the same time, providing comprehensive planet analysis in a single framework. 
                                 The system unifies data from multiple NASA missions into a single analysis framework, enabling 
                                 researchers to process thousands of candidates efficiently while maintaining scientific rigor.
                         </p>
@@ -175,7 +175,7 @@
                             <p class="card-description">
                                 BlackEye features modular architecture with clean separation of concerns, scalable design that handles 
                                 large datasets efficiently, Docker support for easy deployment and reproducibility, API-first design 
-                                for integration with existing research workflows, and comprehensive hyperparameter tuning for all XGBoost models.
+                                for integration with existing research workflows, and comprehensive customization options for all AI models.
                             </p>
                         </div>
                         <div class="card-footer">
@@ -195,10 +195,10 @@
                         <div class="card-body">
                             <h3 class="card-title">Multi-Target Learning</h3>
                             <p class="card-description">
-                                BlackEye employs a multi-target approach that combines classification and regression models to provide 
-                                comprehensive exoplanet analysis. The system simultaneously classifies objects as CONFIRMED, CANDIDATE, 
-                                FALSE_POSITIVE, or UNKNOWN while predicting 7 key scientific parameters including orbital period, 
-                                planet radius, equilibrium temperature, and stellar properties.
+                                BlackEye uses a smart approach that combines finding planets and learning about their properties to provide 
+                                comprehensive planet analysis. The system simultaneously identifies objects as CONFIRMED, CANDIDATE, 
+                                FALSE_POSITIVE, or UNKNOWN while predicting 7 key scientific measurements including orbital period, 
+                                planet radius, temperature, and star properties.
                                 <a href="solution.php#parameters" class="link-accent">Explore parameter predictions →</a>
                             </p>
                         </div>
@@ -221,10 +221,10 @@
                         <div class="card-body">
                             <h3 class="card-title">Hyperparameter Customization</h3>
                             <p class="card-description">
-                                BlackEye provides comprehensive hyperparameter tuning for all XGBoost models, allowing researchers to customize 
-                                classifier, planet regressor, stellar regressor, and quality regressor parameters for optimal performance. 
-                                The system includes configurable XGBoost parameters (learning rate, max depth, n_estimators, subsample, 
-                                colsample_bytree) and custom model training capabilities for researcher-specific parameter configuration.
+                                BlackEye provides comprehensive customization options for all AI models, allowing researchers to customize 
+                                planet finder, planet property predictor, star property predictor, and quality predictor settings for optimal performance. 
+                                The system includes configurable AI parameters (learning speed, complexity, number of iterations, data sampling, 
+                                feature selection) and custom model training capabilities for researcher-specific configuration.
                             </p>
                         </div>
                         <div class="card-footer">

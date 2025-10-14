@@ -13,28 +13,22 @@ $team_members = [
         'image' => 'adam-ezzat.jpeg'
     ],
     [
-        'name' => 'Eyad Shawky',
-        'role' => 'Backend Developer',
-        'bio' => 'Developing server-side architecture and APIs for the BlackEye platform. Expert in Python, Flask/FastAPI, database design, RESTful APIs, and building scalable backend systems for ML model integration.',
-        'image' => 'eyad-shawky.jpeg'
-    ],
-    [
         'name' => 'Yahia Awad',
-        'role' => 'Data Engineer',
-        'bio' => 'Building data pipelines and processing workflows for NASA datasets. Expert in ETL processes, data transformation, big data tools, and preparing astronomical datasets for machine learning applications.',
+        'role' => 'Hardware Engineer',
+        'bio' => 'Designing and implementing hardware solutions for astronomical data processing systems. Expert in embedded systems, FPGA programming, signal processing hardware, and optimizing computational systems for real-time data analysis.',
         'image' => 'yahia-awad.jpeg'
     ],
     [
-        'name' => 'Ahmed Khaled',
-        'role' => 'DevOps & Cloud Engineer',
-        'bio' => 'Managing deployment infrastructure and cloud operations. Expert in Docker, Kubernetes, CI/CD pipelines, cloud platforms (AWS/Azure), monitoring, and ensuring reliable production deployment of AI systems.',
-        'image' => 'ahmed-khaled.jpeg'
+        'name' => 'Karim Soliman',
+        'role' => 'Hardware Engineer',
+        'bio' => 'Developing specialized hardware components for exoplanet detection systems. Expert in circuit design, sensor integration, data acquisition systems, and hardware optimization for space-based applications.',
+        'image' => 'karim-soliman.jpeg'
     ],
     [
-        'name' => 'Yassin Yasser',
-        'role' => 'UI/UX Designer',
-        'bio' => 'Designing user experiences and visual interfaces for the BlackEye platform. Expert in Figma, user research, wireframing, prototyping, and creating beautiful, accessible designs for scientific applications.',
-        'image' => 'yassin-yasser.jpeg'
+        'name' => 'Batool Saleh',
+        'role' => 'Researcher',
+        'bio' => 'Conducting scientific research and analysis for exoplanet detection methodologies. Expert in astronomical data analysis, statistical modeling, research methodology, and contributing to scientific publications in exoplanet research.',
+        'image' => 'batool-saleh.jpeg'
     ]
 ];
 ?>

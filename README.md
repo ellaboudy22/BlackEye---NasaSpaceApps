@@ -1,12 +1,12 @@
-﻿# 🌌 NASA Space Apps - Exoplanet Detection Project
+﻿# 🌌 BlackEye - Universe Observation Platform
 
 ## 📋 Summary
 
-BlackEye is a machine learning system that processes NASA's Kepler and TESS datasets to identify and characterize exoplanets. The system combines XGBoost classification and regression models to simultaneously classify exoplanet candidates and predict their physical properties, analyzing 17,232 astronomical objects with 12 raw features plus 3 engineered features.
+BlackEye is an advanced universe observation platform that makes space exploration accessible to everyone. Using NASA's space telescope data and intelligent AI, we discover new worlds, analyze cosmic phenomena, and unlock the secrets of the universe. Whether you're a researcher, educator, or space enthusiast, BlackEye brings the cosmos to your fingertips.
 
 ## 🛠️ Our Solution
 
-**A machine learning system that combines classification and regression models to identify exoplanets and predict their physical properties using NASA's Kepler and TESS datasets.**
+**An advanced universe observation platform that combines NASA's space telescope data with intelligent AI to discover new worlds, analyze cosmic phenomena, and make space exploration accessible to everyone.**
 
 ### 🎯 Core Features
 
@@ -50,7 +50,7 @@ Our project utilizes NASA's Kepler Objects of Interest (KOI) Dataset (9,564 obje
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd "Nasa Space Apps"
+   cd "BlackEye"
    ```
 
 2. **Create virtual environment**
@@ -162,7 +162,7 @@ for param, pred in result['parameters'].items():
 ## 🏗️ Project Structure
 
 ```
-Nasa-Space-Apps/
+BlackEye/
 ├── AI/                              # Machine Learning System
 │   ├── src/                         # Source code
 │   │   ├── models/                  # ML models
@@ -213,7 +213,6 @@ BlackEye is an AI-powered exoplanet classification platform that uses NASA's Kep
 ### Team Members
 - **Moaz Ellaboudy** - Project Lead
 - **Adam Ezzat** - Machine Learning Engineer
-- **Eyad Shawky** - Data Scientist
-- **Yahia Awad** - Backend Developer
-- **Ahmed Khaled** - Frontend Developer
-- **Yassin Yasser** - DevOps Engineer
+- **Yahia Awad** - Hardware Engineer
+- **Karim Soliman** - Hardware Engineer
+- **Batool Saleh** - Researcher

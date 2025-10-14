@@ -20,7 +20,7 @@
                 <p class="page-subtitle">
                     Monitor and configure the BlackEye machine learning system for exoplanet analysis. The system processes NASA's Kepler 
                     and TESS datasets to identify and characterize exoplanets through a multi-target learning approach, analyzing 17,232 
-                    astronomical objects with 12 raw features plus 3 engineered features. Customize hyperparameters for all XGBoost models, 
+                    space objects with 12 basic features plus 3 smart calculated features. Customize settings for all AI models, 
                     configure data splits, and analyze new astronomical data.
                 </p>
                 <div class="stats">
@@ -82,8 +82,8 @@
 
             <section class="section">
                 <h2 class="section-title">Model Configuration</h2>
-                <p class="section-subtitle">Configure XGBoost hyperparameters and retrain the multi-target learning system with custom settings. 
-                The system provides comprehensive hyperparameter tuning for all XGBoost models (classifier, planet regressor, stellar regressor, 
+                <p class="section-subtitle">Configure AI settings and retrain the smart learning system with custom options. 
+                The system provides comprehensive customization for all AI models (planet finder, planet property predictor, star property predictor, 
                 quality regressor) with customizable parameters including n_estimators, max_depth, learning_rate, subsample, and colsample_bytree.</p>
 
                 <div class="section-controls">
@@ -176,7 +176,7 @@
                             <input type="checkbox" id="useCustomHyperparameters" checked>
                             Use Custom Hyperparameters
                         </label>
-                        <p class="option-description">Configure XGBoost hyperparameters for the multi-target learning system below</p>
+                        <p class="option-description">Configure AI settings for the smart learning system below</p>
                     </div>
 
                     <div id="modalHyperparametersSection" class="modal-hyperparameters">

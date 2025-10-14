@@ -19,7 +19,7 @@
                 <p class="page-subtitle">
                     Get in touch with our team to learn more about BlackEye, discuss research collaboration, 
                     or get support for your exoplanet analysis projects. Our team consists of 6 members working 
-                    on the NASA Space Apps Challenge project to advance exoplanet discovery through machine learning.
+                    to advance exoplanet discovery through machine learning.
                 </p>
                 <div class="stats">
                     <div class="stat stat-primary">
@@ -45,7 +45,7 @@
                         <p class="contact-description">
                             We're always excited to hear from researchers and astronomers who are interested in advancing exoplanet science. 
                             Whether you have questions about our machine learning system, want to collaborate, or need support, we're here to help. 
-                            BlackEye is developed for the NASA Space Apps Challenge, addressing the challenge of improving exoplanet detection 
+                            BlackEye addresses the challenge of improving exoplanet detection 
                             and characterization through automated analysis of NASA's Kepler and TESS datasets.
                         </p>
                         

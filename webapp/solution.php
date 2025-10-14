@@ -18,9 +18,9 @@
             <section class="page-header">
                 <h1 class="page-title">Our Solution</h1>
                 <p class="page-subtitle">
-                    BlackEye is a machine learning system that processes NASA's Kepler and TESS datasets to identify and characterize 
-                    exoplanets through a multi-target learning approach. The system analyzes 17,232 astronomical objects using 12 raw 
-                    features plus 3 physics-based engineered features, then uses XGBoost to classify objects and predict their physical properties.
+                    BlackEye transforms how we explore the universe. Our advanced observation platform combines NASA's space telescope data 
+                    with intelligent AI to discover new worlds, analyze cosmic phenomena, and make universe exploration accessible to everyone. 
+                    Experience the future of space discovery with cutting-edge technology that brings the cosmos to your fingertips.
                 </p>
                 <div class="stats">
                     <div class="stat stat-primary">
@@ -40,13 +40,13 @@
 
 
             <section class="section">
-                <h2 class="section-title">The Challenge We Address</h2>
+                <h2 class="section-title">Exploring the Universe Together</h2>
                 <p class="section-subtitle">
-                    NASA's Kepler and TESS missions generate vast amounts of light curve data that require sophisticated analysis. 
-                    Current exoplanet detection relies heavily on manual review by expert astronomers, limiting the pace of discovery 
-                    and scientific advancement. BlackEye addresses this by automating the analysis of vast amounts of light curve data 
-                    from NASA's Kepler and TESS missions, reducing manual review time and improving classification accuracy.
-                    <a href="index.php#problem" class="link-accent">Learn more about the challenges →</a>
+                    The universe holds countless mysteries waiting to be discovered. From distant planets to cosmic phenomena, 
+                    space exploration has always been limited by our ability to process and understand vast amounts of data. 
+                    BlackEye changes this by making universe observation accessible, accurate, and exciting for everyone - 
+                    from professional astronomers to space enthusiasts.
+                    <a href="index.php#problem" class="link-accent">Discover our approach →</a>
                 </p>
             </section>
 
@@ -54,8 +54,8 @@
             <section id="ai-model" class="section">
                 <h2 class="section-title">How Our Machine Learning System Works</h2>
                 <p class="section-subtitle">
-                    BlackEye employs a multi-target approach that combines classification and regression models to provide comprehensive 
-                    exoplanet analysis using XGBoost and advanced feature engineering. The system uses XGBoost for gradient boosting, 
+                    BlackEye uses a smart approach that combines finding planets and learning about their properties to provide comprehensive 
+                    planet analysis using advanced AI and smart calculations. The system uses advanced AI for learning, 
                     scikit-learn, pandas, and NumPy for machine learning and data processing, with FastAPI for the Python backend 
                     and Docker containerization for deployment.
                 </p>
@@ -72,10 +72,10 @@
                         <div class="card-content">
                             <h3 class="card-title">Multi-Target Learning</h3>
                             <p class="card-description">
-                                Our system performs both classification (CONFIRMED/CANDIDATE/FALSE_POSITIVE/UNKNOWN) and parameter prediction 
-                                simultaneously using XGBoost models, providing comprehensive exoplanet characterization in a unified framework. 
-                                The system analyzes 17,232 astronomical objects using 12 raw features plus 3 physics-based engineered features, 
-                                then uses XGBoost to classify objects and predict 7 key scientific parameters.
+                                Our system performs both finding planets (CONFIRMED/CANDIDATE/FALSE_POSITIVE/UNKNOWN) and learning about their properties 
+                                at the same time using AI models, providing comprehensive planet analysis in a unified framework. 
+                                The system analyzes 17,232 space objects using 12 basic features plus 3 smart calculated features, 
+                                then uses AI to identify objects and predict 7 key scientific measurements.
                             </p>
                         </div>
                     </div>
@@ -90,11 +90,11 @@
                         <div class="card-content">
                             <h3 class="card-title">Algorithm Selection</h3>
                             <ul class="card-list">
-                                <li><strong>XGBoost Classifier:</strong> Exoplanet disposition classification (CONFIRMED/CANDIDATE/FALSE_POSITIVE/UNKNOWN)</li>
-                                <li><strong>XGBoost Regressors:</strong> Planet and stellar properties prediction (7 key parameters)</li>
+                                <li><strong>AI Planet Finder:</strong> Planet identification (CONFIRMED/CANDIDATE/FALSE_POSITIVE/UNKNOWN)</li>
+                                <li><strong>AI Property Predictor:</strong> Planet and star properties prediction (7 key measurements)</li>
                                 <li><strong>Feature Engineering:</strong> Physics-based features (period_to_duration_ratio, depth_to_mag_ratio, error_quality_score)</li>
                                 <li><strong>Data Quality Control:</strong> Automated filtering and preprocessing with quality assessment</li>
-                                <li><strong>Hyperparameter Customization:</strong> Configurable XGBoost parameters for all models</li>
+                                <li><strong>Customization Options:</strong> Configurable AI settings for all models</li>
                             </ul>
                         </div>
                     </div>
@@ -112,9 +112,9 @@
                             <ul class="card-list">
                                 <li><strong>Data Ingestion:</strong> Load and standardize multiple astronomical datasets (Kepler KOI, TESS TOI)</li>
                                 <li><strong>Feature Engineering:</strong> Create unified feature set across all surveys (12 raw + 3 engineered)</li>
-                                <li><strong>Classification Training:</strong> Train XGBoost classifier on labeled survey data</li>
+                                <li><strong>Planet Detection Training:</strong> Train AI planet finder on labeled survey data</li>
                                 <li><strong>Regression Training:</strong> Train individual parameter predictors on confirmed exoplanets</li>
-                                <li><strong>Unified Prediction:</strong> Single interface for both classification and parameter estimation</li>
+                                <li><strong>Unified Prediction:</strong> Single interface for both finding planets and learning about their properties</li>
                             </ul>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                 <h2 class="section-title">How We Built BlackEye</h2>
                 <p class="section-subtitle">
                     Our development process involved extensive research, data analysis, and iterative model refinement 
-                    to create a robust and accurate exoplanet classification system.
+                    to create a robust and accurate planet detection system.
                 </p>
                 
                 <div class="timeline-section">
@@ -148,14 +148,14 @@
                             <div class="timeline-marker">3</div>
                             <div class="timeline-content">
                                 <h4>Model Development</h4>
-                                <p>Implemented and tested multiple machine learning algorithms, selecting optimal combinations for classification and parameter prediction tasks.</p>
+                                <p>Implemented and tested multiple AI approaches, selecting the best combinations for finding planets and learning about their properties.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-marker">4</div>
                             <div class="timeline-content">
                                 <h4>Validation & Optimization</h4>
-                                <p>Conducted extensive cross-validation and hyperparameter tuning to optimize XGBoost models for multi-target learning.</p>
+                                <p>Conducted extensive testing and optimization to improve AI models for finding planets and learning about their properties.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -220,7 +220,7 @@
                         <div class="card-content">
                             <h3 class="card-title">Comprehensive Parameter Prediction</h3>
                             <p class="card-description">
-                                Beyond simple classification, BlackEye predicts 7 key scientific parameters including planet radius, 
+                                Beyond simple planet detection, BlackEye predicts 7 key scientific measurements including planet radius, 
                                 equilibrium temperature, insolation flux, stellar temperature, stellar surface gravity, stellar radius, 
                                 and signal-to-noise ratio.
                             </p>
@@ -256,7 +256,7 @@
                         <div class="card-content">
                             <h3 class="card-title">Model Customization</h3>
                             <p class="card-description">
-                                Advanced hyperparameter tuning for all XGBoost models (classifier, planet regressor, stellar regressor, quality regressor) 
+                                Advanced customization options for all AI models (planet finder, planet property predictor, star property predictor, quality predictor) 
                                 with customizable parameters including n_estimators, max_depth, learning_rate, and subsample settings.
                             </p>
                         </div>
